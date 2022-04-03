@@ -1,0 +1,30 @@
+﻿<?xml version="1.0"?>
+<Users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <User>
+    <Name>radu</Name>
+    <ImageIndex>4</ImageIndex>
+    <GameProperty>
+      <LevelProperty>1</LevelProperty>
+      <MistakesProperty>0</MistakesProperty>
+      <CategoryProperty>Cars</CategoryProperty>
+      <WordOnDisplay />
+      <WordToGuess />
+      <SecondsRemaining>55</SecondsRemaining>
+      <SavedGame>true</SavedGame>
+    </GameProperty>
+    <StatisticsProperty>
+      <WonGamesAll>0</WonGamesAll>
+      <LostGamesAll>4</LostGamesAll>
+      <WonGamesCars>0</WonGamesCars>
+      <LostGamesCars>2</LostGamesCars>
+      <WonGamesMountains>0</WonGamesMountains>
+      <LostGamesMountains>0</LostGamesMountains>
+      <WonGamesMovies>0</WonGamesMovies>
+      <LostGamesMovies>0</LostGamesMovies>
+      <WonGamesRivers>0</WonGamesRivers>
+      <LostGamesRivers>0</LostGamesRivers>
+      <WonGamesStates>0</WonGamesStates>
+      <LostGamesStates>1</LostGamesStates>
+    </StatisticsProperty>
+  </User>
+</Users>
