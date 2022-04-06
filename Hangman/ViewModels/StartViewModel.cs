@@ -1,11 +1,12 @@
 ﻿using Hangman.Helps;
 using Hangman.Models;
+using Hangman.Views;
 using System.IO;
 using System.Windows.Input;
 
 namespace Hangman.ViewModels
 {
-    public class StartViewModel:NotifyViewModel
+    public class StartViewModel : NotifyViewModel
     {
         public StartViewModel()
         {
@@ -51,12 +52,12 @@ namespace Hangman.ViewModels
 
         public void SignIn(object param)
         {
-           /* SignInWindow signInWindow = new SignInWindow();
+            SignInWindow signInWindow = new SignInWindow();
             SignInViewModel signInVM = new SignInViewModel();
             signInWindow.DataContext = signInVM;
             App.Current.MainWindow.Close();
             App.Current.MainWindow = signInWindow;
-            signInWindow.Show();*/
+            signInWindow.Show();
 
         }
 
@@ -75,12 +76,12 @@ namespace Hangman.ViewModels
 
         public void SignUp(object param)
         {
-            /*SignUpWindow window = new SignUpWindow();
+            SignUpWindow window = new SignUpWindow();
             SignUpViewModel signUpVM = new SignUpViewModel();
             window.DataContext = signUpVM;
             App.Current.MainWindow.Close();
             App.Current.MainWindow = window;
-            window.Show();*/
+            window.Show();
         }
 
         private ICommand exitCommand;
